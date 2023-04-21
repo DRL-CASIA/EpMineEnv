@@ -47,7 +47,7 @@ mlagents-envs提供了`no-graphics`仿真模式，但是在该模式下图像不
 ***警告***：上述代码涉及修改mlagents-envs源码，请谨慎使用。
 
 ## 仿真环境下载
-在[release](https://github.com/DRL-CASIA/EpMineEnv/releases/tag/v1.0)标签下，下载系统对应的仿真环境，解压到`envs/SingleAgent/`路径下，并检查`envs/SingleAgent/mine_toy.py`中的`file_name`路径是否正确。
+在[release](https://github.com/DRL-CASIA/EpMineEnv/releases)标签下，下载最新的系统对应的仿真环境，解压到`envs/SingleAgent/`路径下，并检查`envs/SingleAgent/mine_toy.py`中的`file_name`路径是否正确。
 
 在Linux系统下，需要赋予仿真环境`drl.x86_64`文件可执行权限，具体如下
 ```
