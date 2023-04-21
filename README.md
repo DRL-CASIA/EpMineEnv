@@ -52,3 +52,9 @@ mlagents-envs提供了`no-graphics`仿真模式，但是在该模式下图像不
 chmod +x drl.x86_64
 ```
 
+## 训练
+
+```
+python train_ppo.py
+```
+
