@@ -162,7 +162,7 @@ class EpMineEnv(gym.Env):
         action = ActionTuple(np.array([action], dtype=np.float32))
         action_dict = warp_action(action=action)
         toal_reward = 0.0
-        for _ in range(5):
+        for _ in range(1):
             obs, reward, done, info = self._step(action_dict=action_dict)
             toal_reward += reward
             if done:
@@ -205,9 +205,9 @@ class EpMineEnv(gym.Env):
             robot_position = self.get_robot_pose(results=decision_result)[0]
         if self.step_num > self.max_episode_length:
             done = True
-        else:
-            if done:
-                reward += 10.0
+#         else:
+#             if done:
+#                 reward += 10.0
         info["robot_position"] = robot_position
         
         return obs, reward, done, info
