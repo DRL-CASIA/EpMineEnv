@@ -17,12 +17,12 @@
 ```
 conda create -p python3.8 mine_env
 conda activate mine_env
-pip install mlagents-envs gym opencv-python==4.5.5.64
+pip install mlagents-envs gym opencv-python==4.5.5.64 stablebaselin3==1.5.0
 ```
 
 根据系统配置和[官方文档](https://pytorch.org/get-started/locally/)安装pytorch。
 
-根据[Stable-Baseline3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)官方文档安装强化学习框架。
+~~根据[Stable-Baseline3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)官方文档安装强化学习框架。~~
 
 ### 使用远程服务器（无显示器）
 
